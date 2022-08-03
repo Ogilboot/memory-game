@@ -98,7 +98,7 @@ function checkMatch() {
 
     if (cardsWon.length == cardArray.length/2) {
         resultDisplay.innerHTML = 'Congratulations! You found them all you Clever Sausage.'
-        setTimeout(reloadGame, 5000)
+        setTimeout(reloadGame, 3000)
     }
 
 }
